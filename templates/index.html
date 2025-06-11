@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Proctoring System</title>
+</head>
+<style>
+    .img{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        }
+</style>
+<body>
+    <div class="text">
+    <h1>Live Proctoring System</h1>
+    </div>
+    <div class="img">
+    <img src="{{ url_for('video_feed') }}" width="720" height="560">
+    </div>
+</body>
+</html>
